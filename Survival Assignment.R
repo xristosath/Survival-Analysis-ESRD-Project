@@ -3,7 +3,6 @@ library(tidyverse)
 library(survival)
 set.seed(12)
 #load data
-setwd("C:/Users/xrist/OneDrive - National and Kapodistrian University of Athens/Survival Analysis/Assignment")
 esrd <- read.csv("esrd.csv", sep=";", header = T)
 
 #half day in years
